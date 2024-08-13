@@ -1,0 +1,6 @@
+*.log
+*-backups/
+*auto_saved*
+*freerouting.dsn
+*.lck
+*info-cache
