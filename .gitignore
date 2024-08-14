@@ -4,3 +4,5 @@
 *freerouting.dsn
 *.lck
 *info-cache
+.DS_Store
+*_autosave-*
