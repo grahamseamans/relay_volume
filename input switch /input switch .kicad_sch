@@ -4351,7 +4351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a244d93-a7bc-45e3-b30a-6ae518da7844")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 280.67 77.4699 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 		(instances
 			(project "input switch "
 				(path "/17c908e4-ac68-457e-b4c0-a1a927b1a59a"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fa7973e-d9b7-4340-b854-c0c91fb17db5")
-		(property "Reference" "IC?"
+		(property "Reference" "IC4"
 			(at 237.4899 69.85 90)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 		(instances
 			(project "input switch "
 				(path "/17c908e4-ac68-457e-b4c0-a1a927b1a59a"
-					(reference "IC?")
+					(reference "IC4")
 					(unit 1)
 				)
 			)

@@ -162,6 +162,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Samacsys:26-60-4023"
 			(pin_names
 				(offset 0.762)
@@ -318,6 +400,430 @@
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Samacsys:4628"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4628"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Samacsys:4628"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "KEYSTONE - 4628 - FUSE HOLDER, 5 X 20MM, THT, 5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "KEYSTONE - 4628 - FUSE HOLDER, 5 X 20MM, THT, 5A"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.24"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-4628"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4628?qs=zfzUrXoPZmjT%252BZ7zWJhosA%3D%3D"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "4628"
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "4628_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4628_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Samacsys:BHR-06-VUA"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BHR-06-VUA"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Samacsys:SHDR6W64P254_2X3_1522X880X920P"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Box Header, Vertical, 6 Pos"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Box Header, Vertical, 6 Pos"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.2"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "737-BHR-06-VUA"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/BHR-06-VUA?qs=HoCaDK9Nz5cobId%2FEjMHxg%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Adam Tech"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BHR-06-VUA"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "BHR-06-VUA_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BHR-06-VUA_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1003,6 +1509,24 @@
 		(uuid "806e6458-e1c8-4298-a2d6-c53403131f4d")
 	)
 	(junction
+		(at 179.07 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84cfb4ba-19cc-466f-b74d-f11740f58e8b")
+	)
+	(junction
+		(at 199.39 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89707a01-ce93-47af-a0ff-91ac66aad8bf")
+	)
+	(junction
+		(at 199.39 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b3acad8-dfdb-47f2-98e2-ec85abf83387")
+	)
+	(junction
 		(at 142.24 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1013,6 +1537,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8cdbb1-f270-471a-ae23-162368a960f1")
+	)
+	(junction
+		(at 179.07 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff920cc4-b3ac-4792-8b0e-8d8b53cb1a8f")
+	)
+	(no_connect
+		(at 90.17 72.39)
+		(uuid "85f083d2-43ac-47d6-b00d-ba844f8e771a")
 	)
 	(wire
 		(pts
@@ -1036,6 +1570,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 35.56) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375c8831-6162-410a-a3cc-b1bffc899280")
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44610752-c044-4a44-8989-35b970e3462c")
+	)
+	(wire
+		(pts
 			(xy 158.75 74.93) (xy 162.56 74.93)
 		)
 		(stroke
@@ -1043,6 +1597,26 @@
 			(type default)
 		)
 		(uuid "69de8a4e-a0c3-4db3-86b2-16413147b07d")
+	)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ba6ad7-eb40-412b-98de-795dd08a9dee")
+	)
+	(wire
+		(pts
+			(xy 199.39 33.02) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1289d9-195a-4f93-9f60-9d67d9763aef")
 	)
 	(wire
 		(pts
@@ -1056,6 +1630,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 33.02) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26e9f1e-c33f-4da9-8b6c-1750bf5647bf")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 180.34 87.63)
 		)
 		(stroke
@@ -1066,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5085dd0-296e-46e4-a4cb-3ddd1185cb0e")
+	)
+	(wire
+		(pts
 			(xy 129.54 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -1073,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "ec7a6b0e-e325-4e43-bf73-4a4196ff37cb")
+	)
+	(wire
+		(pts
+			(xy 92.71 72.39) (xy 93.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2c59f0-161f-40f5-bb5a-6843e5d5e111")
 	)
 	(wire
 		(pts
@@ -1095,6 +1699,201 @@
 		(uuid "f5e42317-96be-4abd-9d85-8681c99874ea")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 100.33 130.81 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041a0534-a1e0-4a70-bf14-be4672e6d286")
+		(property "Reference" "H3"
+			(at 102.87 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 102.87 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 199.39 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b698156-e75a-412c-9486-33d95f12d9c7")
+		(property "Reference" "#PWR04"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 203.2 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 199.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f1bc5e2-e99b-4ed2-a283-dd678cdde278")
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 100.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45dc146a-ef8d-4e37-a5fa-9279eac51f7c")
+		(property "Reference" "H4"
+			(at 102.87 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 102.87 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 180.34 74.93 270)
 		(unit 1)
@@ -1103,7 +1902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65a0acdf-b7fc-456d-8773-055f3f3e3999")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -1154,74 +1953,7 @@
 		(instances
 			(project "psu"
 				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 223.52 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c182e70-4432-458f-87af-c749f9812f87")
-		(property "Reference" "#PWR04"
-			(at 229.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 227.33 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 223.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f90f46f-823f-429f-b543-7b9529e628ec")
-		)
-		(instances
-			(project "psu"
-				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1343,6 +2075,136 @@
 			(project "psu"
 				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 100.33 124.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a502164-4437-480a-93a1-4ea0326fd368")
+		(property "Reference" "H2"
+			(at 102.87 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 102.87 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 179.07 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a722f7-1aac-4087-b609-0a9ad033d669")
+		(property "Reference" "#PWR01"
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 175.006 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75bf4e9e-648b-474f-bcf3-4bbf5a1d3c8b")
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1471,7 +2333,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:26-60-4023")
-		(at 93.98 74.93 180)
+		(at 86.36 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1480,7 +2342,7 @@
 		(fields_autoplaced yes)
 		(uuid "b756c329-a0be-4a21-be25-10bec4b38876")
 		(property "Reference" "J1"
-			(at 83.82 64.77 0)
+			(at 76.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +2350,7 @@
 			)
 		)
 		(property "Value" "26-60-4023"
-			(at 83.82 67.31 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +2358,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:26604023"
-			(at 77.47 77.47 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +2368,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/26-60-4023.pdf"
-			(at 77.47 74.93 0)
+			(at 69.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +2378,7 @@
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK 156 Hdr Assy FrLk Assy FrLk 02 Ckt Tin"
-			(at 93.98 74.93 0)
+			(at 86.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +2387,7 @@
 			)
 		)
 		(property "Description_1" "Headers & Wire Housings KK 156 Hdr Assy FrLk Assy FrLk 02 Ckt Tin"
-			(at 77.47 72.39 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +2397,7 @@
 			)
 		)
 		(property "Height" "15.36"
-			(at 77.47 69.85 0)
+			(at 69.85 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +2407,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-26-60-4023"
-			(at 77.47 67.31 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +2417,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-26-60-4023"
-			(at 77.47 64.77 0)
+			(at 69.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +2427,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 77.47 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +2437,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "26-60-4023"
-			(at 77.47 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,6 +2456,148 @@
 			(project "psu"
 				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:BHR-06-VUA")
+		(at 179.07 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b979a854-aa43-4a37-a1ea-2c267ad88f7b")
+		(property "Reference" "J3"
+			(at 189.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BHR-06-VUA"
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SHDR6W64P254_2X3_1522X880X920P"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Box Header, Vertical, 6 Pos"
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Box Header, Vertical, 6 Pos"
+			(at 195.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.2"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "737-BHR-06-VUA"
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/BHR-06-VUA?qs=HoCaDK9Nz5cobId%2FEjMHxg%3D%3D"
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Adam Tech"
+			(at 195.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BHR-06-VUA"
+			(at 195.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "34637f6c-19f4-4e73-a092-fcb94684aa66")
+		)
+		(pin "5"
+			(uuid "d834a580-e85e-4e4d-bea0-86e34439fa53")
+		)
+		(pin "3"
+			(uuid "fd0e1df1-ad0e-4773-92ed-b36e362d843b")
+		)
+		(pin "4"
+			(uuid "1d1fbaff-c9e7-45f2-8774-75077806d988")
+		)
+		(pin "2"
+			(uuid "14b76367-d3f0-4389-952f-1a46fc4bad90")
+		)
+		(pin "1"
+			(uuid "4062896c-c9de-49f1-9756-c11bcaae1c52")
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1807,99 +2811,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c442085b-1eca-4fb4-8771-f03aaf63c83c")
-		(property "Reference" "#PWR03"
-			(at 219.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.584 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43c5c17b-98fd-41f2-9ad4-532e5bc57a43")
-		)
-		(instances
-			(project "psu"
-				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:26-60-4023")
-		(at 223.52 78.74 180)
+		(lib_id "Samacsys:4628")
+		(at 87.63 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb421303-5f7d-4108-8213-c2e1d07db648")
+		(uuid "da6a6b47-b27b-40a8-a30b-8a1d8694f112")
 		(property "Reference" "J2"
-			(at 213.36 68.58 0)
+			(at 96.52 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "26-60-4023"
-			(at 213.36 71.12 0)
+		(property "Value" "4628"
+			(at 96.52 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:26604023"
-			(at 207.01 81.28 0)
+		(property "Footprint" "Samacsys:4628"
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,8 +2848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/26-60-4023.pdf"
-			(at 207.01 78.74 0)
+		(property "Datasheet" ""
+			(at 87.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,8 +2858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Headers & Wire Housings KK 156 Hdr Assy FrLk Assy FrLk 02 Ckt Tin"
-			(at 223.52 78.74 0)
+		(property "Description" "KEYSTONE - 4628 - FUSE HOLDER, 5 X 20MM, THT, 5A"
+			(at 87.63 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,8 +2867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Headers & Wire Housings KK 156 Hdr Assy FrLk Assy FrLk 02 Ckt Tin"
-			(at 207.01 76.2 0)
+		(property "Description_1" "KEYSTONE - 4628 - FUSE HOLDER, 5 X 20MM, THT, 5A"
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,8 +2877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "15.36"
-			(at 207.01 73.66 0)
+		(property "Height" "12.24"
+			(at 92.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,8 +2887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-26-60-4023"
-			(at 207.01 71.12 0)
+		(property "Mouser Part Number" "534-4628"
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,8 +2897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-26-60-4023"
-			(at 207.01 68.58 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4628?qs=zfzUrXoPZmjT%252BZ7zWJhosA%3D%3D"
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,8 +2907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
-			(at 207.01 66.04 0)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 100.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,8 +2917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "26-60-4023"
-			(at 207.01 63.5 0)
+		(property "Manufacturer_Part_Number" "4628"
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,15 +2926,18 @@
 				(justify left)
 				(hide yes)
 			)
+		)
+		(pin "MH1"
+			(uuid "ec2887cd-801f-410d-89d5-8ce65b6a2431")
 		)
 		(pin "2"
-			(uuid "94adc842-a65d-468c-9631-36ce563dacdf")
+			(uuid "8cb43ee9-5afe-4c44-9564-cfe7d1f88837")
 		)
 		(pin "1"
-			(uuid "4317e10e-73a1-4622-8c9d-686c965034e9")
+			(uuid "3d5f81e1-8aba-4149-9e92-6aa21df91fbb")
 		)
 		(instances
-			(project "psu"
+			(project ""
 				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
 					(reference "J2")
 					(unit 1)
@@ -2012,7 +2955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb3637f-0ce1-4c98-907f-4e01e3c3af9c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 186.69 87.63 0)
 			(effects
 				(font
@@ -2063,7 +3006,71 @@
 		(instances
 			(project "psu"
 				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
-					(reference "#PWR02")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 100.33 118.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe2f3301-7a13-4464-95df-1bda263b60f2")
+		(property "Reference" "H1"
+			(at 102.87 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 102.87 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "psu"
+				(path "/43d509be-1cd1-426b-ac5c-15a056ebdec5"
+					(reference "H1")
 					(unit 1)
 				)
 			)
