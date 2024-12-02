@@ -1,0 +1,97 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "97ae7532-5aa3-4e53-82e6-d486cce65bde")
+	(paper "A4")
+	(title_block
+		(title "RelaiXedPassive")
+		(date "2016-08-27")
+		(rev "1.0")
+		(company "Jos van Eijndhoven")
+		(comment 1 "Copyright 2016")
+		(comment 2 "Permission for free use for personal/DIY application only")
+	)
+	(lib_symbols)
+	(sheet
+		(at 58.42 38.1)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00004f666988")
+		(property "Sheetname" "Control"
+			(at 58.42 37.2614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 58.42 59.1062 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "relaixedPassive"
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 71.12)
+		(size 44.45 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00004f6669d2")
+		(property "Sheetname" "AudioAttenuator"
+			(at 58.42 70.2814 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio-attenuator.kicad_sch"
+			(at 58.42 94.6662 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "relaixedPassive"
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

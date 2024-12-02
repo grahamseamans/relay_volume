@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name fplib-rev2)(type KiCad)(uri /home/jos/GDrive/Audio/RelaixedPassive/fplib-rev2.pretty)(options "")(descr ""))
+  (lib (name RelaixedPassiveFront)(type KiCad)(uri "$(KIPRJMOD)/RelaixedPassiveFront.pretty")(options "")(descr ""))
+  (lib (name RlxPassiveFootprints)(type KiCad)(uri "$(KIPRJMOD)/RlxPassiveFootprints.pretty")(options "")(descr ""))
+  (lib (name outputstage)(type Legacy)(uri "C:/Users/jos/Google Drive/Audio/DAC4/outputstage/outputstage.mod")(options "")(descr "")(disabled))
+  (lib (name relaixed2smd)(type Legacy)(uri "C:/Users/jos/Google Drive/Audio/Relaixed2smd/kicad/relaixed2smd.mod")(options "")(descr "")(disabled))
+  (lib (name RelaixedFrontOld)(type Legacy)(uri "C:/Users/jos/Google Drive/Audio/RelaixedFront/kicad/RelaixedFront.mod")(options "")(descr "")(disabled))
+  (lib (name RelaixedFrontArchive)(type Legacy)(uri "C:/Users/jos/Google Drive/Audio/RelaixedFront/kicad/RelaixedFrontArchive.mod")(options "")(descr "")(disabled))
+)
