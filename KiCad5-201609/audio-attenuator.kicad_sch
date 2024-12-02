@@ -1335,12 +1335,6 @@
 		(uuid "2b572360-f345-4782-8688-f6998b9d6bb2")
 	)
 	(junction
-		(at 30.48 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37760966-578d-4646-8de6-551716a95a2d")
-	)
-	(junction
 		(at 212.09 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3386,7 +3380,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K204")
+					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3449,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3518,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR027")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3540,7 +3534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6dda19")
-		(property "Reference" "K216"
+		(property "Reference" "K7"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -3608,6 +3602,14 @@
 		(pin "7"
 			(uuid "2e9f4bd1-8392-4121-b0ea-3113f6aa0696")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K7")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K_AB")
@@ -3619,7 +3621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6dda84")
-		(property "Reference" "K215"
+		(property "Reference" "K5"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -3687,6 +3689,14 @@
 		(pin "7"
 			(uuid "f2fbb9cf-7320-4c5e-bfc1-92dcd579c195")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K5")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -3751,7 +3761,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR026")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3829,7 +3839,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K203")
+					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3917,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K201")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -3976,7 +3986,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3992,7 +4002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6dda9e")
-		(property "Reference" "K213"
+		(property "Reference" "K1"
 			(at 29.21 49.53 0)
 			(effects
 				(font
@@ -4060,6 +4070,14 @@
 		(pin "1"
 			(uuid "3fbaba5d-903e-498a-a18e-97e26973641d")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K1")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K_AB")
@@ -4071,7 +4089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6ddaa1")
-		(property "Reference" "K214"
+		(property "Reference" "K3"
 			(at 52.07 49.53 0)
 			(effects
 				(font
@@ -4139,6 +4157,14 @@
 		(pin "7"
 			(uuid "ae4be432-7b40-40c7-b762-291a726999ee")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K3")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -4203,7 +4229,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR024")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4281,7 +4307,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K202")
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -4297,7 +4323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e28ae")
-		(property "Reference" "K207"
+		(property "Reference" "K9"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -4365,6 +4391,14 @@
 		(pin "8"
 			(uuid "128a9deb-010f-45f5-b29a-a5c323680974")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K")
@@ -4376,7 +4410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e28c3")
-		(property "Reference" "K208"
+		(property "Reference" "K10"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -4444,6 +4478,14 @@
 		(pin "8"
 			(uuid "817c2127-a575-455e-9133-3f145914edb1")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -4454,7 +4496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e298e")
-		(property "Reference" "R202"
+		(property "Reference" "R8"
 			(at 111.252 87.63 90)
 			(effects
 				(font
@@ -4503,6 +4545,14 @@
 		(pin "2"
 			(uuid "7ca9c944-14b4-48de-8a85-e034d652125e")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -4513,7 +4563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e2991")
-		(property "Reference" "R204"
+		(property "Reference" "R12"
 			(at 121.412 87.63 90)
 			(effects
 				(font
@@ -4562,6 +4612,14 @@
 		(pin "2"
 			(uuid "f898394f-8603-4faf-84f6-5a6887930ab7")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -4572,7 +4630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e2995")
-		(property "Reference" "R203"
+		(property "Reference" "R10"
 			(at 116.332 87.63 90)
 			(effects
 				(font
@@ -4621,6 +4679,14 @@
 		(pin "1"
 			(uuid "eac030f8-9a25-442f-a801-297d026670ec")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -4631,7 +4697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e2998")
-		(property "Reference" "R205"
+		(property "Reference" "R14"
 			(at 137.922 87.63 90)
 			(effects
 				(font
@@ -4680,6 +4746,14 @@
 		(pin "2"
 			(uuid "05b46424-90aa-4650-a0db-1139e974e491")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -4690,7 +4764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e299b")
-		(property "Reference" "R206"
+		(property "Reference" "R16"
 			(at 145.542 87.63 90)
 			(effects
 				(font
@@ -4738,6 +4812,14 @@
 		)
 		(pin "2"
 			(uuid "929245ee-b5b3-4fac-8770-7d5019dd3435")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4803,7 +4885,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR023")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4954,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR022")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4941,7 +5023,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR021")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4956,7 +5038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e313d")
-		(property "Reference" "R208"
+		(property "Reference" "R20"
 			(at 170.942 87.63 90)
 			(effects
 				(font
@@ -5005,6 +5087,14 @@
 		(pin "2"
 			(uuid "77d53f0b-c26c-498d-a8b8-6fd0c2304f79")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5015,7 +5105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e313e")
-		(property "Reference" "R207"
+		(property "Reference" "R18"
 			(at 163.322 87.63 90)
 			(effects
 				(font
@@ -5064,6 +5154,14 @@
 		(pin "2"
 			(uuid "196ca152-1c3d-4a6b-82c1-9a902d5891ae")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K")
@@ -5075,7 +5173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e313f")
-		(property "Reference" "K209"
+		(property "Reference" "K11"
 			(at 172.72 105.41 0)
 			(effects
 				(font
@@ -5143,6 +5241,14 @@
 		(pin "8"
 			(uuid "19409872-9dd2-4f04-b2c1-45b70f511f19")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K")
@@ -5154,7 +5260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31a3")
-		(property "Reference" "K211"
+		(property "Reference" "K13"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -5222,6 +5328,14 @@
 		(pin "8"
 			(uuid "1ece87b9-e6bd-4191-b069-8dd290ca0375")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5232,7 +5346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31a4")
-		(property "Reference" "R211"
+		(property "Reference" "R26"
 			(at 214.122 87.63 90)
 			(effects
 				(font
@@ -5281,6 +5395,14 @@
 		(pin "2"
 			(uuid "1954d6f8-314b-4857-9c71-5f3aa5763dcc")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5291,7 +5413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31a5")
-		(property "Reference" "R212"
+		(property "Reference" "R28"
 			(at 221.742 87.63 90)
 			(effects
 				(font
@@ -5339,6 +5461,14 @@
 		)
 		(pin "2"
 			(uuid "5115d3d8-238d-4ea3-9fe8-0164e583d040")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5404,7 +5534,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR020")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5473,7 +5603,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR019")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31aa")
-		(property "Reference" "R210"
+		(property "Reference" "R24"
 			(at 196.342 87.63 90)
 			(effects
 				(font
@@ -5537,6 +5667,14 @@
 		(pin "2"
 			(uuid "15a1c965-ecff-4a4f-b3b2-2d445d9af575")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5547,7 +5685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31ab")
-		(property "Reference" "R209"
+		(property "Reference" "R22"
 			(at 188.722 87.63 90)
 			(effects
 				(font
@@ -5596,6 +5734,14 @@
 		(pin "2"
 			(uuid "58eb2d5a-fb84-4ebb-92ef-1674a808c71d")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K")
@@ -5607,7 +5753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e31ac")
-		(property "Reference" "K210"
+		(property "Reference" "K12"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -5675,6 +5821,14 @@
 		(pin "8"
 			(uuid "d51a1956-df37-47a7-8b73-32e7d27735bc")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -5739,7 +5893,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR018")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e326e")
-		(property "Reference" "R214"
+		(property "Reference" "R32"
 			(at 248.412 87.63 90)
 			(effects
 				(font
@@ -5803,6 +5957,14 @@
 		(pin "2"
 			(uuid "8cdb1edd-befa-460f-93ea-0946ab92d1e9")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5813,7 +5975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e326f")
-		(property "Reference" "R213"
+		(property "Reference" "R30"
 			(at 240.792 87.63 90)
 			(effects
 				(font
@@ -5862,6 +6024,14 @@
 		(pin "2"
 			(uuid "0fbca0b9-718b-44f2-82f9-7f5163cf5f75")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K")
@@ -5873,7 +6043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e3270")
-		(property "Reference" "K212"
+		(property "Reference" "K14"
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -5941,6 +6111,14 @@
 		(pin "8"
 			(uuid "1180b96e-7d93-427e-976d-bdf520aa4882")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -5951,7 +6129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e34b4")
-		(property "Reference" "R201"
+		(property "Reference" "R34"
 			(at 263.652 82.55 90)
 			(effects
 				(font
@@ -5999,6 +6177,14 @@
 		)
 		(pin "1"
 			(uuid "8ffd5b31-77d4-4ac8-906b-86496313465a")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6064,7 +6250,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR017")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36da")
-		(property "Reference" "R226"
+		(property "Reference" "R31"
 			(at 240.792 123.19 90)
 			(effects
 				(font
@@ -6129,6 +6315,14 @@
 		(pin "2"
 			(uuid "2664c84b-8c1e-4fc1-b166-a46fd9d7620c")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -6140,7 +6334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36db")
-		(property "Reference" "R227"
+		(property "Reference" "R33"
 			(at 248.412 123.19 90)
 			(effects
 				(font
@@ -6188,6 +6382,14 @@
 		)
 		(pin "2"
 			(uuid "82985bc2-7a01-4a9f-9f19-0c99a3f71ff3")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6254,7 +6456,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR016")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6270,7 +6472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36dd")
-		(property "Reference" "R222"
+		(property "Reference" "R23"
 			(at 188.722 123.19 90)
 			(effects
 				(font
@@ -6319,6 +6521,14 @@
 		(pin "2"
 			(uuid "d5e1227c-0406-4854-9fa8-497a8816d90e")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -6330,7 +6540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36de")
-		(property "Reference" "R223"
+		(property "Reference" "R25"
 			(at 196.342 123.19 90)
 			(effects
 				(font
@@ -6378,6 +6588,14 @@
 		)
 		(pin "2"
 			(uuid "32ffd381-899c-4274-8360-4955984f2d1d")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6444,7 +6662,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR015")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6514,7 +6732,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR014")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6530,7 +6748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e1")
-		(property "Reference" "R225"
+		(property "Reference" "R29"
 			(at 221.742 123.19 90)
 			(effects
 				(font
@@ -6579,6 +6797,14 @@
 		(pin "2"
 			(uuid "138639be-6c7f-4a5f-8ae4-2f60c43275d8")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -6590,7 +6816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e2")
-		(property "Reference" "R224"
+		(property "Reference" "R27"
 			(at 214.122 123.19 90)
 			(effects
 				(font
@@ -6639,6 +6865,14 @@
 		(pin "2"
 			(uuid "0542fe24-d8cc-4972-abca-5eeb0709921d")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -6650,7 +6884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e3")
-		(property "Reference" "R220"
+		(property "Reference" "R19"
 			(at 163.322 123.19 90)
 			(effects
 				(font
@@ -6699,6 +6933,14 @@
 		(pin "2"
 			(uuid "6105a6de-35f2-42ac-b744-8ba7e6e6b35b")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -6710,7 +6952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e4")
-		(property "Reference" "R221"
+		(property "Reference" "R21"
 			(at 170.942 123.19 90)
 			(effects
 				(font
@@ -6758,6 +7000,14 @@
 		)
 		(pin "2"
 			(uuid "20f9b624-b135-4ca8-8602-45343d16ab74")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6824,7 +7074,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR013")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6894,7 +7144,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR012")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6964,7 +7214,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR011")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6980,7 +7230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e8")
-		(property "Reference" "R219"
+		(property "Reference" "R17"
 			(at 145.542 123.19 90)
 			(effects
 				(font
@@ -7029,6 +7279,14 @@
 		(pin "2"
 			(uuid "5cc6006e-bd5b-4699-a53b-94a7199ec053")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -7040,7 +7298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36e9")
-		(property "Reference" "R218"
+		(property "Reference" "R15"
 			(at 137.922 123.19 90)
 			(effects
 				(font
@@ -7089,6 +7347,14 @@
 		(pin "2"
 			(uuid "09643ac9-005a-4d95-84dc-3be61b372ac8")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -7100,7 +7366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36ea")
-		(property "Reference" "R216"
+		(property "Reference" "R11"
 			(at 116.332 123.19 90)
 			(effects
 				(font
@@ -7149,6 +7415,14 @@
 		(pin "2"
 			(uuid "58d5cf2a-5832-4be4-9735-01db56c5c591")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -7160,7 +7434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36eb")
-		(property "Reference" "R217"
+		(property "Reference" "R13"
 			(at 121.412 123.19 90)
 			(effects
 				(font
@@ -7209,6 +7483,14 @@
 		(pin "2"
 			(uuid "32a84a0c-5f5c-4e1c-9086-d9a0fadcf362")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:R")
@@ -7220,7 +7502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e36ec")
-		(property "Reference" "R215"
+		(property "Reference" "R9"
 			(at 111.252 123.19 90)
 			(effects
 				(font
@@ -7268,6 +7550,14 @@
 		)
 		(pin "2"
 			(uuid "feb3ca82-22f5-4705-8650-583381a79cb6")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7334,7 +7624,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR010")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7350,7 +7640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f6e375f")
-		(property "Reference" "R228"
+		(property "Reference" "R35"
 			(at 263.652 128.27 90)
 			(effects
 				(font
@@ -7398,6 +7688,14 @@
 		)
 		(pin "1"
 			(uuid "ed7d9db6-3947-4354-a162-b7d2e26a35c0")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7472,7 +7770,7 @@
 					(unit 2)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K201")
+					(reference "K2")
 					(unit 2)
 				)
 			)
@@ -7487,7 +7785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052829772")
-		(property "Reference" "K216"
+		(property "Reference" "K7"
 			(at 97.79 180.34 0)
 			(effects
 				(font
@@ -7555,6 +7853,14 @@
 		(pin "7"
 			(uuid "5111ca3f-21b4-4914-a694-add40abf5a00")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -7619,7 +7925,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR09")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7994,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR08")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7757,7 +8063,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR07")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7826,7 +8132,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR06")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7904,7 +8210,7 @@
 					(unit 2)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K202")
+					(reference "K4")
 					(unit 2)
 				)
 			)
@@ -7973,7 +8279,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR05")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7988,7 +8294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005282977d")
-		(property "Reference" "K214"
+		(property "Reference" "K3"
 			(at 52.07 180.34 0)
 			(effects
 				(font
@@ -8056,6 +8362,14 @@
 		(pin "7"
 			(uuid "5e7aef0f-bb14-46b3-9646-847b5434192c")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:RELAY_G6K_AB")
@@ -8066,7 +8380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052829780")
-		(property "Reference" "K213"
+		(property "Reference" "K1"
 			(at 29.21 180.34 0)
 			(effects
 				(font
@@ -8134,6 +8448,14 @@
 		(pin "7"
 			(uuid "40663be1-d017-4d89-94c0-b88dd736f55a")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -8198,7 +8520,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR04")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8276,7 +8598,7 @@
 					(unit 2)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K203")
+					(reference "K6")
 					(unit 2)
 				)
 			)
@@ -8345,7 +8667,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR03")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8360,7 +8682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052829784")
-		(property "Reference" "K215"
+		(property "Reference" "K5"
 			(at 74.93 180.34 0)
 			(effects
 				(font
@@ -8428,6 +8750,14 @@
 		(pin "7"
 			(uuid "b30b260d-0685-4d30-a30b-7331ddcd5af8")
 		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "relaixedPassive-rescue:AGND")
@@ -8492,7 +8822,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR02")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8900,7 @@
 					(unit 2)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "K204")
+					(reference "K8")
 					(unit 2)
 				)
 			)
@@ -8639,7 +8969,7 @@
 					(unit 1)
 				)
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR01")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8654,7 +8984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000529618e9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR062"
 			(at 255.27 115.316 0)
 			(effects
 				(font
@@ -8704,7 +9034,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR029")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8719,7 +9049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000529618fd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR059"
 			(at 228.6 115.316 0)
 			(effects
 				(font
@@ -8769,7 +9099,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR030")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8784,7 +9114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005296191e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR056"
 			(at 203.2 115.316 0)
 			(effects
 				(font
@@ -8834,7 +9164,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR031")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8849,7 +9179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005296192d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR053"
 			(at 177.8 115.316 0)
 			(effects
 				(font
@@ -8899,7 +9229,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR032")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8914,7 +9244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005296193c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 152.4 115.316 0)
 			(effects
 				(font
@@ -8964,7 +9294,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8979,7 +9309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005296194b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR047"
 			(at 127 115.316 0)
 			(effects
 				(font
@@ -9029,7 +9359,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR034")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052961aee")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR032"
 			(at 41.91 167.894 0)
 			(effects
 				(font
@@ -9094,7 +9424,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR035")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052961b0c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 87.63 167.894 0)
 			(effects
 				(font
@@ -9224,7 +9554,7 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052961b1b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 110.49 167.894 0)
 			(effects
 				(font
@@ -9289,76 +9619,10 @@
 		(instances
 			(project ""
 				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "relaixedPassive-rescue:CONN_4")
-		(at 21.59 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052961ca3")
-		(property "Reference" "P1"
-			(at 22.86 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "audioIn"
-			(at 20.32 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RlxPassiveFootprints:PIN_ARRAY_4x1"
-			(at 17.78 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "180066c7-e3e0-4b09-a39d-c9dbd9ee7d94")
-		)
-		(pin "2"
-			(uuid "3c1b62c7-c0e8-46e7-8808-6fbe63361edf")
-		)
-		(pin "3"
-			(uuid "32309890-405d-47db-ae5e-9853c2c41162")
-		)
-		(pin "4"
-			(uuid "404ae91f-8f72-4af4-ab7e-87c85e25e3ed")
 		)
 	)
 	(symbol
@@ -9425,6 +9689,14 @@
 		)
 		(pin "4"
 			(uuid "c87fcac5-3536-4d67-9908-3d5476e7151f")
+		)
+		(instances
+			(project ""
+				(path "/97ae7532-5aa3-4e53-82e6-d486cce65bde/00000000-0000-0000-0000-00004f6669d2"
+					(reference "P2")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

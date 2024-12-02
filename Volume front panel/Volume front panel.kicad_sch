@@ -140,6 +140,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2767,6 +2924,233 @@
 				)
 			)
 		)
+		(symbol "Samacsys:VZL221M1CTR-0607"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "VZL221M1CTR-0607"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Samacsys:CAPAE660X800N"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VZL221M1CTR-0607.pdf"
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+				(at 8.89 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "8"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "140-VZL221M1CTR-0607"
+				(at 8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/VZL221M1CTR-0607?qs=AQlKX63v8RuLAF02EyCoUA%3D%3D"
+				(at 8.89 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lelon"
+				(at 8.89 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "VZL221M1CTR-0607"
+				(at 8.89 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "VZL221M1CTR-0607_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VZL221M1CTR-0607_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 5.842 -2.54) (xy 5.842 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "Samacsys_kicad_sym:PEC11R-4330F-S0012"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3749,6 +4133,12 @@
 		)
 	)
 	(junction
+		(at 521.97 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ddaa21-4bc5-434d-bdde-ac5c90e52d1b")
+	)
+	(junction
 		(at 196.85 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3809,6 +4199,12 @@
 		(uuid "981ab89f-8284-4dd8-96f7-b8adab8035bf")
 	)
 	(junction
+		(at 535.94 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d7a67c-5e43-494a-ba9b-33dfd7cd9255")
+	)
+	(junction
 		(at 165.1 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3827,10 +4223,22 @@
 		(uuid "b2b0d8f5-2d70-4be7-b490-b4ffbcd93b5c")
 	)
 	(junction
+		(at 528.32 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b62f5056-35d0-4ec9-8f61-986a3498526c")
+	)
+	(junction
 		(at 240.03 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca71e823-2a8f-4b2d-9218-53565aece852")
+	)
+	(junction
+		(at 535.94 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3d1c11-55e9-4c7b-aa83-c1b3a9ea09a5")
 	)
 	(junction
 		(at 373.38 67.31)
@@ -4016,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 535.94 195.58) (xy 535.94 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6adf92-dc38-492b-8f29-fc7d78511fb8")
+	)
+	(wire
+		(pts
 			(xy 196.85 125.73) (xy 196.85 134.62)
 		)
 		(stroke
@@ -4033,6 +4451,16 @@
 			(type default)
 		)
 		(uuid "0d7d5ef4-7338-403d-b975-645e3a702f6d")
+	)
+	(wire
+		(pts
+			(xy 528.32 212.09) (xy 535.94 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4f3058-c048-4ea0-84d7-4e8c8959703e")
 	)
 	(wire
 		(pts
@@ -4206,6 +4634,16 @@
 	)
 	(wire
 		(pts
+			(xy 535.94 199.39) (xy 538.48 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb015ee-58fa-4d45-b2f0-e76a69aed091")
+	)
+	(wire
+		(pts
 			(xy 322.58 148.59) (xy 308.61 148.59)
 		)
 		(stroke
@@ -4233,6 +4671,16 @@
 			(type default)
 		)
 		(uuid "334a0df5-c32e-417e-9df9-095382d57d9e")
+	)
+	(wire
+		(pts
+			(xy 528.32 215.9) (xy 528.32 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ebc4b7-d49d-4809-84ae-4b299a68e64e")
 	)
 	(wire
 		(pts
@@ -4346,6 +4794,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 212.09) (xy 528.32 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c7cad3-5e5b-444a-b1c2-78c05a2836c5")
+	)
+	(wire
+		(pts
 			(xy 205.74 87.63) (xy 208.28 87.63)
 		)
 		(stroke
@@ -4353,6 +4811,16 @@
 			(type default)
 		)
 		(uuid "430c3455-a7cc-4694-8430-fa8cdf7037f6")
+	)
+	(wire
+		(pts
+			(xy 535.94 212.09) (xy 538.48 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461cf767-5421-45c2-8da2-911d75e20209")
 	)
 	(wire
 		(pts
@@ -4543,6 +5011,26 @@
 			(type default)
 		)
 		(uuid "772b9750-30ae-4689-bdd7-43ffd726d0b4")
+	)
+	(wire
+		(pts
+			(xy 501.65 201.93) (xy 499.11 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79583ae7-6d40-4c8d-86f1-23755ff7729e")
+	)
+	(wire
+		(pts
+			(xy 499.11 199.39) (xy 521.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795b6823-b6ec-4555-8fc6-f0f28ef7bcf0")
 	)
 	(wire
 		(pts
@@ -4946,6 +5434,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 195.58) (xy 535.94 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca69caae-04c1-49f6-84c1-956e8844cccb")
+	)
+	(wire
+		(pts
 			(xy 227.33 146.05) (xy 229.87 146.05)
 		)
 		(stroke
@@ -5056,6 +5554,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 195.58) (xy 521.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9883b9-32c8-4fe8-836f-d31af58f8fd4")
+	)
+	(wire
+		(pts
 			(xy 313.69 143.51) (xy 313.69 100.33)
 		)
 		(stroke
@@ -5093,6 +5601,16 @@
 			(type default)
 		)
 		(uuid "ed2c32ca-b895-42a7-b06e-67aa511b4732")
+	)
+	(wire
+		(pts
+			(xy 521.97 195.58) (xy 525.78 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9db4c2-f82c-4c7b-a247-4784fbf81269")
 	)
 	(wire
 		(pts
@@ -7064,7 +7582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba728be-cc9d-4ad9-b253-ca34c2c61581")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR030"
 			(at 426.72 168.91 0)
 			(effects
 				(font
@@ -7115,7 +7633,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR036")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7184,6 +7702,73 @@
 			(project "avc_input_remote_front_panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 538.48 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c9b2aa-067b-4297-bfb2-3504fc0ca424")
+		(property "Reference" "#PWR041"
+			(at 534.67 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 542.29 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 538.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 538.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27aaaae5-4d3d-4317-9e31-715da9c81a54")
+		)
+		(instances
+			(project "Volume front panel"
+				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7485,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6069a36f-1345-4a65-a85b-28baf3b1640d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 441.96 171.45 0)
 			(effects
 				(font
@@ -7536,7 +8121,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7612,7 +8197,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 499.11 201.93 90)
+		(at 501.65 201.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7620,8 +8205,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a6175e-d0d3-43b5-b8e9-107be5c8ee0f")
-		(property "Reference" "#PWR031"
-			(at 505.46 201.93 0)
+		(property "Reference" "#PWR040"
+			(at 508 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +8215,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 502.92 201.9299 90)
+			(at 505.46 201.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 499.11 201.93 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +8233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 499.11 201.93 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +8242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 499.11 201.93 0)
+			(at 501.65 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +8256,7 @@
 		(instances
 			(project ""
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR031")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8287,6 +8872,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:VZL221M1CTR-0607")
+		(at 521.97 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ca53c7-b711-4a34-8299-a5293eaebe43")
+		(property "Reference" "C11"
+			(at 529.59 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VZL221M1CTR-0607"
+			(at 527.05 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:CAPAE660X800N"
+			(at 523.24 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VZL221M1CTR-0607.pdf"
+			(at 520.7 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+			(at 521.97 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+			(at 518.16 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 515.62 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "140-VZL221M1CTR-0607"
+			(at 513.08 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/VZL221M1CTR-0607?qs=AQlKX63v8RuLAF02EyCoUA%3D%3D"
+			(at 510.54 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lelon"
+			(at 508 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VZL221M1CTR-0607"
+			(at 505.46 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13b66e48-c327-4e82-ae50-906ea6b5906a")
+		)
+		(pin "2"
+			(uuid "1fb1aacb-7b53-4a70-b9b0-d53ff7d8f0d5")
+		)
+		(instances
+			(project "Volume front panel"
+				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 368.3 69.85 90)
 		(mirror x)
@@ -8484,73 +9199,6 @@
 			(project "avc_input_remote_front_panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 499.11 199.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98968b63-03d6-4188-bc2e-73f26347cfb6")
-		(property "Reference" "#PWR030"
-			(at 495.3 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 502.92 199.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 499.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 499.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 499.11 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c31065d-ffa1-4510-b047-dcae1e8502be")
-		)
-		(instances
-			(project ""
-				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8767,7 +9415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3fd8a3-795c-46d6-a1b7-a484d091162a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 441.96 168.91 0)
 			(effects
 				(font
@@ -8818,7 +9466,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9696,7 +10344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c98934-f896-4937-b81c-2f3150c8aaca")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR031"
 			(at 416.56 171.45 0)
 			(effects
 				(font
@@ -9747,7 +10395,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR034")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10271,7 +10919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5e29a1-d359-4eab-8427-607ee0ba7479")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 416.56 173.99 0)
 			(effects
 				(font
@@ -10322,7 +10970,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10338,7 +10986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64e6569-6aa6-48e5-acaa-eb310b40ee8a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 441.96 176.53 0)
 			(effects
 				(font
@@ -10389,7 +11037,7 @@
 		(instances
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10528,6 +11176,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:VZL221M1CTR-0607")
+		(at 535.94 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec10dcaf-64d8-411a-85f0-67f0393353af")
+		(property "Reference" "C12"
+			(at 543.56 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VZL221M1CTR-0607"
+			(at 541.02 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:CAPAE660X800N"
+			(at 537.21 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VZL221M1CTR-0607.pdf"
+			(at 534.67 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+			(at 535.94 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Aluminum Electrolytic Capacitors - SMD 220uF 16 Volts 20%"
+			(at 532.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 529.59 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "140-VZL221M1CTR-0607"
+			(at 527.05 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/VZL221M1CTR-0607?qs=AQlKX63v8RuLAF02EyCoUA%3D%3D"
+			(at 524.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lelon"
+			(at 521.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VZL221M1CTR-0607"
+			(at 519.43 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a453ca10-172d-4faf-8d56-fce2f7b15204")
+		)
+		(pin "2"
+			(uuid "1974045a-1bcb-44d2-bec9-f29fc7c8b93e")
+		)
+		(instances
+			(project ""
+				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 347.98 123.19 0)
 		(mirror y)
@@ -10589,6 +11367,72 @@
 			(project "Volume front panel"
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 528.32 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1bea553-6b7d-47ff-bb38-4414f0a0e032")
+		(property "Reference" "#PWR038"
+			(at 528.32 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 528.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 528.32 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 528.32 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 528.32 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01503e97-ca80-4213-a126-5d3a3faa9abf")
+		)
+		(instances
+			(project "Volume front panel"
+				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11150,6 +11994,74 @@
 			(project ""
 				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 529.59 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4a6f6f-63d8-4fa2-80fa-d73d793a24a0")
+		(property "Reference" "L1"
+			(at 529.59 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150uh"
+			(at 529.59 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL6060-XXX"
+			(at 529.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 529.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e12cae9-16af-4990-9bab-6c53cfe9486a")
+		)
+		(pin "1"
+			(uuid "e2c85616-2bc0-4965-b05a-d7ba60ea3717")
+		)
+		(instances
+			(project "Volume front panel"
+				(path "/a4c42179-ba31-4529-8725-e1bfee240d68"
+					(reference "L1")
 					(unit 1)
 				)
 			)
